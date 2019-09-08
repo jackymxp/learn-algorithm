@@ -12,7 +12,6 @@ int __partition1(T* arr, const int left, const int right)
 {
     T v = arr[left];//选定基准
     //arr[left+1, i) < v
-    //arr[left+1, p] < v
     int p = left;
     for(int i = left + 1; i <= right; i++)
     {
