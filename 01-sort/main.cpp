@@ -18,12 +18,12 @@ int main(void)
     int* arr7 = SortHelper::copyArray(arr1, len);
     int* arr8 = SortHelper::copyArray(arr1, len);
     
-  //  SortHelper::testSort("bubbleSort", bubbleSort, arr1, len);
- //   SortHelper::testSort("selectionSort", selectionSort, arr2, len);
-  //  SortHelper::testSort("insertSort", insertSort, arr3, len);
-    //SortHelper::testSort("quickSort", quickSort, arr4, len);
-    //SortHelper::testSort("quickSort3Ways", quickSort3Ways, arr5, len);
-    //SortHelper::testSort("mergeSort", mergeSort, arr6, len);
+    SortHelper::testSort("bubbleSort", bubbleSort, arr1, len);
+    SortHelper::testSort("selectionSort", selectionSort, arr2, len);
+    SortHelper::testSort("insertSort", insertSort, arr3, len);
+    SortHelper::testSort("quickSort", quickSort, arr4, len);
+    SortHelper::testSort("quickSort3Ways", quickSort3Ways, arr5, len);
+    SortHelper::testSort("mergeSort", mergeSort, arr6, len);
     SortHelper::testSort("mergeSortBU", mergeSortBU, arr7, len);
     SortHelper::testSort("heapSort", heapSort, arr8, len);
    
