@@ -36,6 +36,11 @@ public:
         shiftDown(0);
         return ret;
     }
+    T getMax()
+    {
+        assert(count > 0);
+        return data[0];
+    }
 private:
     //parent = (child-1)/2
     void shiftUp(int k )
