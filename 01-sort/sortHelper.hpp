@@ -5,7 +5,6 @@
 #include <time.h>
 #include <cassert>
 
-
 using namespace std;
 
 namespace SortHelper{
@@ -53,5 +52,4 @@ namespace SortHelper{
         }
         cout << "]" << endl;
     }
-
 }

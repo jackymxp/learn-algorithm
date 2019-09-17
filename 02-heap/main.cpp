@@ -12,8 +12,7 @@ void heapify(T* arr, const int len, int k)
             max = leftChild;
         if(rightChild < len && arr[max] < arr[rightChild])
             max = rightChild;
-        
-        //
+            
         if(max != k)
         {
             swap(arr[max], arr[k]);
