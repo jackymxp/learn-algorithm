@@ -8,7 +8,7 @@
 
 int main(void)
 {
-    const int len = 9999999;
+    const int len = 9999;
     int* arr1 = SortHelper::generateRandomArray(len, 0, len);
     int* arr2 = SortHelper::copyArray(arr1, len);
     int* arr3 = SortHelper::copyArray(arr1, len);
