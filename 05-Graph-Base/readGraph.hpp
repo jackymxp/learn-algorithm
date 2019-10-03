@@ -33,6 +33,5 @@ public:
             graph.addEdge(a, b);
         }
     }
-
 private:
 };
