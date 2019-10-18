@@ -180,6 +180,7 @@ private:
                 minNode->right = root->right;
                 delete root;
                 count--;
+                return minNode;
             }
         }
     }
